@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "sass": "^1.58.0"
+  },
+  "name": "w1d5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {"sass": "sass --watch ./sass:./css"
+  },
+  "author": "Hatice Anik",
+  "license": "ISC",
+  "description": ""
+}

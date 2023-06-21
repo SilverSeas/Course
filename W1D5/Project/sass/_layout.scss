@@ -1,0 +1,17 @@
+.container {
+    max-width: 120rem;
+    margin: $marginMedium;
+    background-color: $primary-color;
+    min-height: 80rem;
+    font-size: $default-font-size;
+}
+
+.header {
+    height: 7rem;
+    background-color: #ffffff;
+    border-bottom: $secondary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $accent-color 2px solid;
+}

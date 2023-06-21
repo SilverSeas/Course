@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+h1 {
+ color: darkred;
+ font-style: oblique;  
+ font-size: 40px;
+ text-decoration: underline;
+}

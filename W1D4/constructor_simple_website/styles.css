@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 95%;
+    width: 100%
+}
+
+.bottom_header {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    margin-right: 5px;
+    display: flex;
+
+}
+.bottom_header a:first-child {
+    padding-right: 20px;
+}
+
+
+
+
+img {
+    width: 15%;
+    flex-shrink: 0; /* Flex shrink 0 will prevent loss of aspect ratio on shrinking*/
+    min-width: 95px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 4%;
+    min-width: 30px;
+    height: 100%;
+    background: #f2f2f2;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1.5%;
+    background-color: #008CE2;
+}
+
+.header_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1.5%;
+    color: white;
+}
+
+.top_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.5em;
+}
+
+.header_title {
+    font-size: 25px;
+}
+
+
+
+.courses_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.courses_list li:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.courses_list li:nth-child(odd) {
+    background-color: white;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1%
+}
+
+li p {
+    width: 20%;
+ 
+}
+
+
+button {
+    background-color: #DB4E3D;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    min-height: 50px;
+    gap: 2%;
+    background-color: #DB4E3D;
+
+}
+
+.BottomRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 2%;
+}
+
+.bottomLeft {
+    margin-left: 2%;
+}
