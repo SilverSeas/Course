@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Calculator</h1>
+    <input type="text" id="input1">
+    <input type="text" id="input2">
+    <button id="calculate">Add Them</button>
+    <div id="output"></div>
+
+    <script>
+      const input1 = document.querySelector("#input1");
+      const input2 = document.querySelector("#input2");
+      const calculateButton = document.querySelector("#calculate");
+      const output = document.querySelector("#output");
+
+      calculateButton.addEventListener("click", () => {
+        const num1 = Number(input1.value);
+        const num2 = Number(input2.value);
+        output.textContent = num1 + num2;
+      });
+    </script>
+  </body>
+</html>

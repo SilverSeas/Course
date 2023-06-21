@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  backend:
+    image: registry.gitlab.propulsion-home.ch/hatice-anik/week-7/day-2:latest
+    tty: true
+    ports:
+      - 8001:8000
+    volumes:
+      - ./backend:/backend
+    command: 'python manage.py runserver 0:8000'
+    env_file:
+      - ./envs/dev.env
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    env_file:
+      - ./envs/dev.env
+    ports:
+      - '5555:5432'
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+volumes:
+  postgres:

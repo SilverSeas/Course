@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-bar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.top-bar-right {
+    display: flex;
+}
+
+.top-bar-links, .sign-in-box {
+    align-items: center;
+}
+
+.apps {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.sign-in-box {
+    background-color: #4285f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sign-in-box a {
+    color: white;
+}
+.logo {
+    width: 330px;
+    height: 110px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    }
+
+.search-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.search-container input {
+    width: 70%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.search-container button {
+    margin-top: 30px;
+    display: inline-block;
+    width: 30%;
+    padding: 12px 20px;
+    font-size: 15px;
+    background-color: rgba(224, 220, 220, 0.387);
+    color: rgb(104, 102, 102);
+    border: none;
+    cursor: pointer;
+}

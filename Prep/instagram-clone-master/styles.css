@@ -1,0 +1,132 @@
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    float: left;
+}
+  
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+  
+  .header img {
+    height: 25px;
+    margin-right: 5px;
+  }
+
+  .symbols {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  header, footer {
+    position:fixed;
+    width:100%;
+    background:#fff;
+  }
+  header {
+    top:0;
+    border-bottom:1px solid grey;
+  }
+  footer {
+    bottom:0;
+    border-top:1px solid grey;
+  }
+  .content {
+    margin-top:20px;
+  }
+  header, .header-left, .header-right {
+    height: 60px;
+  }
+  .logo {
+    height: 50px;
+  }
+
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  .stories {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .story {
+    display: block;
+    
+    text-align:center;
+  }
+
+  .Stories {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+  }
+
+  .poster {
+    display: flex;
+    width:100%;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .Posterimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .right {
+    width:100%;
+    text-align:right;
+  }
+
+  .Symbols {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .post .feedpic {
+    width:100%;
+  }
+
+  .post-images {
+    display: flex;
+    align-items: center;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .comments {
+    color: darkgrey;
+  }
+  .footer img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%
+  }
+  body {
+    margin:0;
+  }
+  main {
+    margin-top: 100px;
+  }
+  .feed-content {
+    margin-top:40px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px;
+  }
+  
